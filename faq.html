@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PawPal - FAQ</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/faq.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">🐾 PawPal</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="login.html">Login / Registrierung</a></li>
+          <li class="nav-item"><a class="nav-link" href="chat.html">Chatbot</a></li>
+          <li class="nav-item"><a class="nav-link" href="features.html">Funktionen</a></li>
+          <li class="nav-item"><a class="nav-link active" href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold mb-3">Häufige Fragen (FAQ)</h2>
+      <p>Hier findest du Antworten auf häufige Fragen rund um PawPal.</p>
+    </div>
+
+    <div class="accordion" id="faqAccordion">
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+            Wie funktioniert PawPal?
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            PawPal ist ein Chatbot, der dich bei Fragen zur Hundehaltung unterstützt. Einfach im Chat Fragen stellen und los geht‘s!
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+            Für wen ist PawPal geeignet?
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Für neue und erfahrene Hundebesitzer. PawPal passt sich deinem Wissenstand automatisch an.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+            Brauche ich einen Account?
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            Nein, du kannst auch als Gast den Chat nutzen. Mit Account bekommst du jedoch personalisierte Antworten.
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour">
+            Ist PawPal ein echter Tierarzt?
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            PawPal ersetzt keinen Tierarzt. Bei ernsten Symptomen bitte immer den Veterinär aufsuchen. Sicherheit geht vor!
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="faqFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive">
+            Gibt's auch bayerische Kommandos? 
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+          <div class="accordion-body">
+            A bissl wos geht oiwei! Du kannst PawPal auf bayerisch anreden, er versteht "Servus", "Pfiat di" und Co 
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="bg-dark text-light text-center py-4 mt-auto">
+    <div class="container">
+      <p class="mb-1">PawPal | Ein Projekt von THD Student für Hunde</p>
+      <p class="small">© 2025 PawPal</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

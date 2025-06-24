@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PawPal - Login & Register</title>
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/login.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/js/login.js"></script>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        🐾 PawPal
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="login.html">Login / Registrierung</a></li>
+          <li class="nav-item"><a class="nav-link" href="chat.html">Chatbot</a></li>
+          <li class="nav-item"><a class="nav-link" href="features.html">Funktionen</a></li>
+          <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-8 col-sm-12 text-center mb-4">
+        <h2 class="fw-bold mb-4">🐕 Anmeldung & Registrierung</h2>
+
+        <ul class="nav nav-tabs mb-3" id="tabMenu" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="login-tab" data-bs-toggle="tab" data-bs-target="#login" type="button">Login</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="register-tab" data-bs-toggle="tab" data-bs-target="#register" type="button">Registrierung</button>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="tabContent">
+          <div class="tab-pane fade show active" id="login" role="tabpanel">
+            <form id="loginForm">
+              <div class="mb-3">
+                <label for="login-email" class="form-label">E-Mail</label>
+                <input type="email" class="form-control" id="login-email" required />
+              </div>
+              <div class="mb-3">
+                <label for="login-password" class="form-label">Passwort</label>
+                <input type="password" class="form-control" id="login-password" required />
+              </div>
+              <button type="submit" class="btn btn-warning w-100 fw-bold">Einloggen 🐾</button>
+            </form>
+          </div>
+
+           <div class="tab-pane fade" id="register" role="tabpanel">
+            <form id="registerForm">
+              <div class="mb-3">
+                <label for="register-username" class="form-label">Name</label>
+                <input type="text" class="form-control" id="register-username" required />
+              </div>
+              <div class="mb-3">
+                <label for="register-email" class="form-label">E-Mail</label>
+                <input type="email" class="form-control" id="register-email" required />
+              </div>
+              <div class="mb-3">
+                <label for="register-password" class="form-label">Passwort</label>
+                <input type="password" class="form-control" id="register-password" required />
+              </div>
+              <div class="mb-3">
+                <label for="register-ownerType" class="form-label">Bist du:</label>
+                <select class="form-select" id="register-ownerType" required>
+                  <option value="new">Neuer Hundebesitzer</option>
+                  <option value="experienced">Erfahrener Hundebesitzer</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="register-dogSize" class="form-label">Größe deines Hundes</label>
+                <select class="form-select" id="register-dogSize" required>
+                  <option value="small">Klein</option>
+                  <option value="medium">Mittel</option>
+                  <option value="large">Groß</option>
+                </select>
+              </div>
+              <div class="mb-3">
+                <label for="register-dogBreed" class="form-label">Hunderasse</label>
+                <input type="text" class="form-control" id="register-dogBreed" placeholder="z.B. Golden Retriever" required />
+              </div>
+              <button type="submit" class="btn btn-warning w-100 fw-bold">Registrieren 🐶</button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-light text-center py-4 mt-auto">
+    <div class="container">
+      <p class="mb-1">PawPal | Ein Projekt von THD Student für Hunde</p>
+      <p class="small">© 2025 PawPal</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
