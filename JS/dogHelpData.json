@@ -1,0 +1,126 @@
+[
+  {
+    "topic": "begrüßung",
+    "ownerTypes": ["guest", "new", "experienced"],
+    "keywords": ["hallo", "hi", "hey", "servus", "grüß gott", "moin", "Hey", "Hallo", "Hi"],
+    "answers": [
+      "Servus ${userName}! Wie ko i da mit deinem Wauzi heit helfen?",
+      "Grüß Gott ${userName}! Was brauchst heit für Unterstützung mit deinem Hund?",
+      "Hallo ${userName}, i bin da, um mit deinem Hund zu helfen. Leg einfach los!"
+    ]
+  },
+  {
+    "topic": "fütterung",
+    "ownerTypes": ["new", "experienced"],
+    "keywords": ["füttern", "fütterung", "essen", "nahrung", "futter", "portion"],
+    "answers": [
+      "Für kleine Wauzis: ca. 100g pro Mahlzeit. Mittlere: 200g. Große: 300g am Dog. Natürlich je nach Aktivität.",
+      "A gscheide Fütterung is wichtig: kleine Hunde 3x am Dog, große 2x reicht meistens.",
+      "Beim Füttern auf hochwertiges Futter achten – brauchst Empfehlungen?"
+    ]
+  },
+  {
+    "topic": "spazieren",
+    "ownerTypes": ["new", "experienced"],
+    "keywords": ["spazieren", "gassi", "runde", "spaziergang", "auslauf"],
+    "answers": [
+      "A gscheide Gassirunde: mindestens 30 Minuten, zwoa moi am Dog.",
+      "Je aktiver der Hund, desto öfter Gassi. Bei jungen Hunden gerne öfter und kürzer.",
+      "Wichtig is: Immer ordentlich Bewegung — des tut dem Hund gut und haltet ihn fit!"
+    ]
+  },
+  {
+    "topic": "impfungen",
+    "ownerTypes": ["new", "experienced"],
+    "keywords": ["impfung", "impfungen", "tierarzt", "schutzimpfung", "impfplan", "arzt", "spritzn"],
+    "answers": [
+      "Impfplan: 8., 12., 16. Woche – dann jährliche Auffrischungen.",
+      "Oiso: Erstimpfungen als Welpe, dann jährlich beim Tierarzt kontrollieren lassen.",
+      "I ko dir auf Wunsch auch Tierärzte in Deggendorf empfehlen."
+    ]
+  },
+  {
+    "topic": "erbrechen",
+    "ownerTypes": ["guest", "new", "experienced"],
+    "keywords": ["erbrechen", "erbricht", "bricht", "kotzt"],
+    "answers": [
+      "Erbrechen & Fieber? Lieber schnell zur Praxis, sicher is sicher.",
+      "Wenn dein Hund öfter erbricht: Wasser anbieten und unbedingt Tierarzt aufsuchen!"
+    ]
+  },
+  {
+    "topic": "niesen",
+    "ownerTypes": ["guest", "new", "experienced"],
+    "keywords": ["niesen", "niest", "hatschi"],
+    "answers": [
+      "Niesen kann Allergie, Infekt oder was anderes sein – wenn's länger dauert: Arzt!",
+      "Häufiges Niesen? Vielleicht was im Fell oder in der Nase – im Zweifel: Tierarzt."
+    ]
+  },
+  {
+    "topic": "humpeln",
+    "ownerTypes": ["guest", "new", "experienced"],
+    "keywords": ["humpeln", "lahmen", "zieht bein", "beinschmerzen"],
+    "answers": [
+      "Humpeln kann viele Ursachen haben – schau ob Schwellung oder Schmerz da ist. Tierarzt checken lassen.",
+      "Ziehendes Bein? Mögliches Trauma – lieber nix riskieren und untersuchen lassen."
+    ]
+  },
+  {
+    "topic": "fieber",
+    "ownerTypes": ["guest", "new", "experienced"],
+    "keywords": ["fieber", "heiß", "fiebrig"],
+    "answers": [
+      "Hunde haben normal ~38–39°C. Alles drüber = ab zum Tierarzt!",
+      "Wenn dein Hund heiß wirkt und schlapp ist → Fieber messen und checken lassen."
+    ]
+  },
+  {
+    "topic": "schmerzen",
+    "ownerTypes": ["guest", "new", "experienced"],
+    "keywords": ["schmerzen", "aua", "weh", "schmerz"],
+    "answers": [
+      "Schmerzäußerung? Wimmern, Zittern, Rückzug – abklären lassen.",
+      "Wenn dein Hund nicht spielen will oder sich verzieht, könnten Schmerzen der Grund sein."
+    ]
+  },
+  {
+    "topic": "übergewicht",
+    "ownerTypes": ["experienced"],
+    "keywords": ["übergewicht", "dick", "schwer", "zu fett", "gewicht", "diät"],
+    "answers": [
+      "Weniger Leckerli, mehr Bewegung, evtl. Diätfutter — dann pack ma des!",
+      "Gscheid spazieren gehen hilft beim Abspecken!",
+      "Tierarzt kann beim Abnehm-Plan beraten — i hab aber auch paar Tipps, magst?"
+    ]
+  },
+  {
+    "topic": "zahnpflege",
+    "ownerTypes": ["new", "experienced"],
+    "keywords": ["zähne", "zahnpflege", "zahnstein", "gebiss", "zahnprobleme"],
+    "answers": [
+      "Regelmäßig Zähne putzen hilft viel — es gibt auch Kausnacks zur Unterstützung.",
+      "Zahnstein sollte regelmäßig kontrolliert werden — evtl. Tierarzt nötig.",
+      "Gesunde Zähne = glücklicher Hund. I kann Produkte empfehlen falls du magst."
+    ]
+  },
+  {
+    "topic": "parasiten",
+    "keywords": ["parasiten", "würmer", "flöhe", "zecken", "ungeziefer"],
+    "ownerTypes": ["guest", "new", "experienced"],
+    "answers": [
+      "Bei Parasiten wie Flöhen oder Würmern solltest du den Tierarzt aufsuchen und regelmäßig entwurmen.",
+      "Achte auf Juckreiz oder kleine schwarze Punkte im Fell - das könnten Flohkot oder Zecken sein."
+    ]
+  },
+  {
+    "topic": "ende",
+    "ownerTypes": ["guest", "new", "experienced"],
+    "keywords": ["tschüss", "auf wiedersehen", "servus", "pfiat di", "danke", "ciao"],
+    "answers": [
+      "Pfiat di! Wennst wieder Fragen host, bin i da 🐾",
+      "Mach's guad und gib dei Wauzi a Streichel von mir!",
+      "Bis bald, war mir a Freude 🎉"
+    ]
+  }
+]

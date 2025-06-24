@@ -1,0 +1,10 @@
+{
+  "safe": [
+    "karotten", "gurken", "bananen", "äpfel", "käse", "reis", "hähnchen", "lachs", "brokkoli", "joghurt"
+  ],
+  "dangerous": [
+    "schokolade", "zwiebeln", "knoblauch", "trauben", "rosinen", "xylit", "alkohol", "kaffee", "avocado", "macadamianüsse"
+  ],
+  "entryTriggers": ["gegessen", "hat gefressen", "hat was gegessen", "verschluckt", "fressen"]
+
+}

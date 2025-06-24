@@ -1,0 +1,68 @@
+{
+  "greetings": [
+    "hallo",
+    "hi",
+    "servus",
+    "grüß gott",
+    "guten morgen",
+    "guten tag",
+    "moin",
+    "hey"
+  ],
+  "mildSymptoms": [
+    "müde",
+    "wenig appetit",
+    "durchfall",
+    "tränende augen",
+    "schnupfen",
+    "husten",
+    "zittert leicht"
+  ],
+  "seriousSymptoms": [
+    "erbrechen",
+    "erbricht",
+    "bricht",
+    "krämpfe",
+    "fieber",
+    "hinken",
+    "atemprobleme",
+    "blut",
+    "starke schmerzen",
+    "kollaps",
+    "nicht ansprechbar"
+  ],
+   "entryTriggers": [
+    "krank",
+    "geht es schlecht",
+    "nicht gut",
+    "komisch",
+    "unruhig",
+    "wirkt seltsam",
+    "fühlt sich komisch",
+    "zeigt komisches verhalten",
+    "mein hund ist nicht normal",
+    "etwas stimmt nicht",
+    "verhält sich anders",
+    "verhält sich komisch",
+    "mein hund benimmt sich komisch",
+    "mein hund hat symptome"
+  ],
+  "parasiteTriggers": [
+  "mein hund kratzt sich",
+  "mein hund hat ungeziefer",
+  "mein hund hat würmer",
+  "mein hund hat flöhe",
+  "mein hund hat zecken",
+  "da ist ein schwarzer punkt im fell"
+  ],
+  "behaviorTriggers": [
+  "bellt viel", "verhält sich aggressiv", "beißt", "hat angst",
+  "hört nicht", "ist hyperaktiv", "springt leute an", "hat trennungsangst", "aggressiv"
+  ],
+  "behaviorKeywords": ["bellt", "beißt", "knurrt", "ängstlich", "schüchtern", "aggressiv"]
+}
+
+
+
+
+
