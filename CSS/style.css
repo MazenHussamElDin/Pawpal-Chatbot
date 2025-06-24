@@ -1,0 +1,173 @@
+/* Global Variables */
+:root {
+  --main-bg: #FFF3E3;
+  --main-accent: #F9C784;
+  --main-dark: #2C1D0B;
+  --main-text: #333333;
+  --main-brown: #A47148;
+  --main-white: #ffffff;
+  --footer-bg: #2C1D0B;
+  --footer-text: #F9F1E3;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Body Background */
+body {
+  background-color: var(--main-bg);
+  color: var(--main-text);
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--main-white);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: var(--main-dark);
+  font-size: 1.6rem;
+}
+
+.navbar-nav .nav-link {
+  color: var(--main-dark);
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--main-brown);
+}
+
+/* Hero Section */
+.hero {
+  height: 80vh;
+  background: linear-gradient(to bottom, #F9C784, #FFF3E3);
+  padding: 20px;
+}
+
+.hero h1 {
+  color: var(--main-dark);
+}
+
+.hero p {
+  color: var(--main-text);
+}
+
+
+/* image in home page to hover and magnify it */
+.zoom-image:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+
+/* Buttons */
+.btn-warning {
+  background-color: var(--main-accent);
+  border-color: var(--main-brown);
+  color: var(--main-dark);
+}
+
+.btn-warning:hover {
+  background-color: var(--main-brown);
+  color: white;
+}
+
+/* Chatbox */
+.chatbox {
+  background-color: #ffffff;
+  border: 2px solid var(--main-accent);
+  border-radius: 15px;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-messages {
+  overflow-y: auto;
+  height: 50vh;
+  padding: 10px;
+  border-bottom: 1px solid var(--main-accent);
+}
+
+.chat-message {
+  margin: 10px 0;
+  padding: 8px 12px;
+  border-radius: 12px;
+}
+
+.user-message {
+  background-color: var(--main-accent);
+  align-self: flex-end;
+  color: var(--main-dark);
+}
+
+.bot-message {
+  background-color: var(--main-brown);
+  color: white;
+  align-self: flex-start;
+}
+
+.system-message {
+  text-align: center;
+  font-style: italic;
+  color: #999;
+}
+
+/* Forms like login and register forms */
+input[type="text"], input[type="email"], input[type="password"], select {
+  border-radius: 8px !important;
+  padding: 10px !important;
+  border: 1px solid #ddd !important;
+}
+
+/* Features Cards in funktionen page */
+.feature-card {
+  background-color: var(--main-white);
+  border: 2px solid var(--main-accent);
+  transition: transform 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+}
+
+/* Footer */
+footer {
+  background-color: var(--footer-bg);
+  color: var(--footer-text);
+}
+
+/* Accordion (FAQ) */
+.accordion-button {
+  background-color: var(--main-accent);
+  color: var(--main-dark);
+  font-weight: bold;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--main-brown);
+  color: white;
+}
+
+.accordion-body {
+  background-color: var(--main-white);
+}
+
+/* Responsive for mobile and tablet view */
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  .chat-messages {
+    height: 45vh;
+  }
+}
