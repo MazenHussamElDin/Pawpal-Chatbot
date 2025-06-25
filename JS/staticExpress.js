@@ -54,6 +54,11 @@ app.post('/register', async (req, res) => {
   }
 });
 
+
+app.get('/', (req, res) => {
+  res.status(200).send("Backend is running");
+});
+
 app.post('/login', async (req, res) => {
   const { email, password } = req.body;
 
